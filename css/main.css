@@ -1,0 +1,9 @@
+h1 {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #aabbcc;
+    letter-spacing: 1.5px;
+}
