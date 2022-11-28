@@ -1,9 +1,87 @@
 h1 {
-    color: darkgray;
+    color: black;
     text-decoration: underline;
 }
 
 h2 {
     color: #aabbcc;
     letter-spacing: 1.5px;
+}
+
+body p {
+    color: #484c51;
+}
+
+img {
+    vertical-align: middle;
+    float: right;
+}
+
+/*
+    Buttons
+*/
+a.btn {
+    background-color:#7f54b3;
+    padding: 7px 15px;
+    color: #fff;
+    text-decoration: dotted;
+}
+
+/* 
+    Products 
+*/
+.product {
+    width: 350px;
+    background-color:#f0f0f0;
+    padding: 25px;
+    margin: 15px;
+}
+
+.product h3 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product p {
+    color: #aabbcc;
+}
+
+
+.boxing-example {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding: 50px 25px;
+
+    background-color: yellow;
+}
+
+/*
+    TESTING
+*/
+
+.product-ul-crazy-style {
+    list-style-image: url('../images/checkbox.png');
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+}
+
+th {
+    border: 2px solid black;
+}
+td {
+    padding: 15px;
+    min-width: 25%;
+    text-align: center;
+    border: 1px solid lightgray;
 }
